@@ -1,7 +1,9 @@
 import logging
 import pandas as pd
 
-def load_df(file_path):
+
+
+def importData(file_path):
 
   try:
     df = pd.read_csv(file_path)
