@@ -48,6 +48,6 @@ def cleanData(df):
     ROWS_DROPPED = INITIAL_ROWS - df.shape[0]
     logging.info(f'Successfully dropped {COL_DROPPED} columns & {ROWS_DROPPED} rows...')
 
-  logging.info(f'Final shape of dataframe after cleaning: [{df.shape[0]} Rows, {df.shape[0]} Columns]')
+  logging.info(f'Final shape of dataframe after cleaning: [{df.shape[0]} Rows, {df.shape[1]} Columns]')
 
   return df
